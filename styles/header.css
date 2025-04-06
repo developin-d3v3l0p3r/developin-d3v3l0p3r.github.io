@@ -1,0 +1,9 @@
+nav ul{
+   align-items: center;;
+   display: flex;
+}
+nav li {
+   display: inline;
+   padding: 1em;
+   text-align: center;
+}
