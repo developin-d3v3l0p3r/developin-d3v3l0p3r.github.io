@@ -1,14 +1,19 @@
 /*SECTION FORMATTING*/
 main section {
-   padding-top: 1em;
-   padding-bottom: 1em;
+   align-items: center;
+   justify-content: center;
+   padding-top: 2em;
+   padding-bottom: 2em;
 }
 main section h1 {
    text-align: center;
 }
+main section p {
+   font-size: 2em;
+}
 /*CUSTOM ELEMENTS*/
-.row{
-   align-items: center;
+.row {
+   justify-content: center;
    display: flex;
    list-style-type: none;
 }
@@ -19,4 +24,11 @@ main section h1 {
 }
 .i-row li i {
    font-size: 5em;
+}
+/*HORIZONTAL-BAR*/
+main hr {
+   margin: 2.5vw;
+}
+main section hr {
+   margin: 7.5vw;
 }

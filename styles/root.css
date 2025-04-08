@@ -2,16 +2,17 @@ html,
 body {
    margin: 0;
    padding: 0;
+   background-color: var(--color-background);
 }
 /*VARIABLES*/
 :root {
-   --color-primary: #ffffff;
+   --color-primary: #cbcbcb;
    --color-secondary: #b3b3b3;
    --color-accent: #939393;
-   --color-background: #6e6e6e;
-   --color-text: #000000;
+   --color-background: #e1e1e1;
+   --color-text: #4a4a4a;
 }
-/*NAV STURCTURE*/
+/*NAV-STURCTURE*/
 nav ul {
    display: flex;
    justify-content: center;
@@ -21,6 +22,7 @@ nav ul {
 }
 nav li {
    display: inline;
+   font-size: 1.5em;
    padding: 1em;
    text-align: center;
 }

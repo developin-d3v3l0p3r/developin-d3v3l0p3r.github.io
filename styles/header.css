@@ -1,7 +1,18 @@
-.main nav {
+/*MAIN-NAV*/
+.main-nav {
+   background-color: var(--color-primary);
    position: sticky;
    text-align: center;
    top: 0;
    width: 100%;
    z-index: 10;
+}
+/*HERO-SECTION*/
+.hero {
+   height: 100vh;
+   justify-items: center;
+   padding: 0;
+}
+.hero h1{
+   font-size: 3em;
 }
