@@ -1,0 +1,22 @@
+/*SECTION FORMATTING*/
+main section {
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+main section h1 {
+   text-align: center;
+}
+/*CUSTOM ELEMENTS*/
+.row{
+   align-items: center;
+   display: flex;
+   list-style-type: none;
+}
+.row li {
+   text-align: center;
+   display: inline;
+   padding: 1em;
+}
+.i-row li i {
+   font-size: 5em;
+}

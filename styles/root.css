@@ -1,7 +1,26 @@
-:root{
+html,
+body {
+   margin: 0;
+   padding: 0;
+}
+/*VARIABLES*/
+:root {
    --color-primary: #ffffff;
    --color-secondary: #b3b3b3;
    --color-accent: #939393;
    --color-background: #6e6e6e;
    --color-text: #000000;
+}
+/*NAV STURCTURE*/
+nav ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+nav li {
+   display: inline;
+   padding: 1em;
+   text-align: center;
 }
