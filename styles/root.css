@@ -4,6 +4,12 @@ body {
    padding: 0;
    background-color: var(--color-background);
 }
+/*FONTS*/
+@font-face {
+   font-family: "Outfit";
+   src: url("/fonts/Outfit-VariableFont_wght.ttf"),
+   format("ttf");
+}
 /*VARIABLES*/
 :root {
    --color-primary: #cbcbcb;

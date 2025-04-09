@@ -9,10 +9,17 @@
 }
 /*HERO-SECTION*/
 .hero {
-   height: 100vh;
-   justify-items: center;
-   padding: 0;
+   margin-left: 20vw;
+   margin-left: 20vw;
+   align-items: center;
+   display: flex;
+   height: 56.2vw;
 }
 .hero h1{
-   font-size: 3em;
+   font-family: 'Outfit';
+   font-size: 5em;
+}
+.hero p {
+   font-family: 'Outfit';
+   font-size: 2em;
 }
