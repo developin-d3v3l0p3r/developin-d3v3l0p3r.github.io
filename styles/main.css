@@ -19,6 +19,7 @@ main section p {
 .row {
    justify-content: center;
    display: flex;
+   flex: 1;
    list-style-type: none;
 }
 .row li {

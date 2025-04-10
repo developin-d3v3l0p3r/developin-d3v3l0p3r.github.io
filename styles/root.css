@@ -23,11 +23,12 @@ nav ul {
    display: flex;
    justify-content: center;
    list-style: none;
-   margin: 0;
+   margin: 0vw 20vw;
    padding: 0;
 }
 nav li {
    display: inline;
+   flex: 1;
    font-family: "Outfit";
    font-size: 1.5em;
    padding: 1em;
