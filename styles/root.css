@@ -28,7 +28,16 @@ nav ul {
 }
 nav li {
    display: inline;
+   font-family: "Outfit";
    font-size: 1.5em;
    padding: 1em;
    text-align: center;
+}
+nav li a {
+   color: inherit;
+   text-decoration: none;
+}
+nav li:hover {
+   background-color: var(--color-accent);
+   transition: ease;
 }
