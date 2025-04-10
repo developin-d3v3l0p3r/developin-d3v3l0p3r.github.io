@@ -41,3 +41,10 @@ nav li:hover {
    background-color: var(--color-accent);
    transition: ease;
 }
+/*QUICK-ATTRIBUTES-&-REUSABLES*/
+.text-center {
+   text-align: center;
+}
+.attribute {
+   font-size: .5em;
+}
