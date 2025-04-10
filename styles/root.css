@@ -24,6 +24,7 @@ nav ul {
    justify-content: center;
    list-style: none;
    margin: 0vw 20vw;
+   text-align: center;
    padding: 0;
 }
 nav li {
@@ -38,10 +39,7 @@ nav li a {
    color: inherit;
    text-decoration: none;
 }
-nav li:hover {
-   background-color: var(--color-accent);
-   transition: ease;
-}
+
 /*QUICK-ATTRIBUTES-&-REUSABLES*/
 .text-center {
    text-align: center;

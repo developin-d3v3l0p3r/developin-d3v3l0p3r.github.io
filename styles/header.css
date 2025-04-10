@@ -3,10 +3,13 @@
    background-color: var(--color-primary);
    margin-right: 20vw;
    position: sticky;
-   text-align: center;
    top: 0;
    width: 100%;
    z-index: 10;
+}
+.main-nav li:hover {
+   background-color: var(--color-accent);
+   transition: ease;
 }
 /*HERO-SECTION*/
 .hero {
