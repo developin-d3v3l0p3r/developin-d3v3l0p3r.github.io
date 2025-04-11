@@ -20,6 +20,7 @@ body {
 }
 /*NAV-STURCTURE*/
 nav ul {
+   align-items: center;
    display: flex;
    justify-content: center;
    list-style: none;
@@ -46,4 +47,7 @@ nav li a {
 }
 .attribute {
    font-size: .5em;
+}
+.stats {
+   font-size: 5em;
 }
