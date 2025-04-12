@@ -13,11 +13,10 @@
 }
 /*HERO-SECTION*/
 .hero {
-   margin-left: 20vw;
-   margin-left: 20vw;
    align-items: center;
    display: flex;
    height: 56.2vw;
+   margin: 0vw 20vw;
 }
 .hero h1 {
    font-family: "Outfit";
