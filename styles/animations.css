@@ -1,0 +1,8 @@
+@keyframes slide-in-from-left{
+   0% {
+      margin: 0vw -20vw;
+   }
+   100% {
+      margin: 0vw 20vw;
+   } 
+}
