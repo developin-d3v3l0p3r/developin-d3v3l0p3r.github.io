@@ -1,3 +1,6 @@
+header {
+   background-color: aliceblue;
+}
 /*MAIN-NAV*/
 .main-nav {
    background-color: var(--color-primary);
