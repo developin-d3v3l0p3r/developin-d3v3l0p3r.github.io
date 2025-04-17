@@ -1,0 +1,52 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+   background-color: var(--color-background);
+}
+/*FONTS*/
+@font-face {
+   font-family: "Outfit";
+   src: url("/fonts/Outfit-VariableFont_wght.ttf"),
+   format("ttf");
+}
+/*VARIABLES*/
+:root {
+   --color-primary: #cbcbcb;
+   --color-secondary: #b3b3b3;
+   --color-accent: #939393;
+   --color-background: #e1e1e1;
+   --color-text: #4a4a4a;
+}
+/*NAV-STURCTURE*/
+nav ul {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0vw 20vw;
+   text-align: center;
+   padding: 0;
+}
+nav li {
+   display: inline;
+   font-family: "Outfit";
+   font-size: 1.5em;
+   padding: 1em;
+   text-align: center;
+}
+nav li a {
+   color: inherit;
+   text-decoration: none;
+}
+
+/*QUICK-ATTRIBUTES-&-REUSABLES*/
+.text-center {
+   text-align: center;
+}
+.attribute {
+   font-size: .5em;
+}
+.stats {
+   font-size: 5em;
+}
