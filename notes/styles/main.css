@@ -1,5 +1,14 @@
 main {
-   margin: 0em 2em;
-   font-family: "Outfit";
    color: grey;
+   font-family: "Outfit";
+   font-size: 1.5rem;
+   margin: 0em 2em;
+   padding-bottom: 2em;
+}
+main nav li a:hover {
+   color: black;
+}
+.note {
+   border-color: grey;
+   border-style: solid;
 }
