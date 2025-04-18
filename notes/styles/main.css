@@ -1,16 +1,5 @@
 main {
    margin: 0em 2em;
-}
-main h1 {
-   color: black;
-   font-size: 1.5em;
-}
-main p {
+   font-family: "Outfit";
    color: grey;
-}
-main nav li {
-   color: grey;
-}
-main nav li:hover {
-   color: black;
 }
