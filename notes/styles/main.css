@@ -5,7 +5,10 @@ main {
    margin: 0em 2em;
    padding-bottom: 2em;
 }
-main nav li a:hover {
+main nav li {
+   font-size: 1rem;
+}
+main nav li:hover {
    color: black;
 }
 .note {
